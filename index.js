@@ -17,3 +17,11 @@ if('make' in car===false){
     car.make='Suzuki'
     console.log(car.make) ;
 }
+
+let str="Apple, Banana, Kiwi";
+console.log(str.length);
+console.log(str.slice(-25).length);//still return as the length of str even it is over
+console.log(str.slice(-1));//returns the last character in the string
+console.log(str.slice(-2,-1));//returns the 2nd to the last character
+console.log(str.slice(0,1));//returns the first character
+console.log(str.slice(1,2));//returns the 2nd character
