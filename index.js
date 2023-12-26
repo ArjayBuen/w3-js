@@ -25,3 +25,13 @@ console.log(str.slice(-1));//returns the last character in the string
 console.log(str.slice(-2,-1));//returns the 2nd to the last character
 console.log(str.slice(0,1));//returns the first character
 console.log(str.slice(1,2));//returns the 2nd character
+
+let text="Please visit Microsoft and Microsoft!";
+let newText=text.replace("Microsoft","W3Schools");//replaces the only first match word or characters
+console.log(newText);//Please visit W3Schools and Microsoft!
+let newText2=text.replace("MICROSOFT","W3Schools");//cannot replace it because of case sensitivity
+console.log(newText2);//Please visit Microsoft and Microsoft!
+let newText3=text.replace(/MICROSOFT/i,"W3Schools");//with regex /i it will not be case sensitive anymore
+console.log(newText3);//Please visit W3Schools and Microsoft!
+let newText4=text.replace(/MICROSOFT/ig,"W3Schools");//with regex /g it will replace all that it matches
+console.log(newText4);//Please visit W3Schools and W3Schools!
