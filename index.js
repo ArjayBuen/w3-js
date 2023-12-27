@@ -35,3 +35,9 @@ let newText3=text.replace(/MICROSOFT/i,"W3Schools");//with regex /i it will not 
 console.log(newText3);//Please visit W3Schools and Microsoft!
 let newText4=text.replace(/MICROSOFT/ig,"W3Schools");//with regex /g it will replace all that it matches
 console.log(newText4);//Please visit W3Schools and W3Schools!
+
+
+let greetings ="   Hello world!      ";
+console.log(greetings.trim());//Hello world! 
+console.log(greetings.trimEnd());//removes only the whitespace at the end
+console.log(greetings.trimStart());//removes only the whitespace at the start
