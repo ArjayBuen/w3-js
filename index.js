@@ -18,6 +18,7 @@ if('make' in car===false){
     console.log(car.make) ;
 }
 
+/******************************* String Methods *********************************/ 
 let str="Apple, Banana, Kiwi";
 console.log(str.length);
 console.log(str.slice(-25).length);//still return as the length of str even it is over
@@ -41,3 +42,16 @@ let greetings ="   Hello world!      ";
 console.log(greetings.trim());//Hello world! 
 console.log(greetings.trimEnd());//removes only the whitespace at the end
 console.log(greetings.trimStart());//removes only the whitespace at the start
+
+let numString="5";
+console.log(numString.padStart(4,0));
+console.log(numString.padEnd(4,0));
+console.log(numString.padStart(4,10));
+console.log(numString.padEnd(4,10));
+console.log(numString.padStart(4,11));
+
+console.log(greetings.trim().charAt(0));
+console.log(greetings.trim().charCodeAt(1));//returns 101 for e
+console.log(greetings.trim()[0]);//property access
+let charNum="abc123";
+console.log(charNum.charAt(3));
