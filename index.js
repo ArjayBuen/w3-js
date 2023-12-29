@@ -55,3 +55,17 @@ console.log(greetings.trim().charCodeAt(1));//returns 101 for e
 console.log(greetings.trim()[0]);//property access
 let charNum="abc123";
 console.log(charNum.charAt(3));
+
+let alphabet="a,b,c,d,e,f";
+const arryAlphabet=alphabet.split(",");
+console.log(arryAlphabet);
+for(let i=0;i<arryAlphabet.length;i++){
+    console.log(arryAlphabet[i]);
+}
+let phrase="Learning to code is worthwile";
+console.log(phrase.split(" "));
+
+console.log(phrase.endsWith("worthwile"));//returns true
+console.log(phrase.includes("z"));//false
+console.log(phrase.indexOf("a"));
+console.log(alphabet.lastIndexOf("e"));
