@@ -69,3 +69,8 @@ console.log(phrase.endsWith("worthwile"));//returns true
 console.log(phrase.includes("z"));//false
 console.log(phrase.indexOf("a"));
 console.log(alphabet.lastIndexOf("e"));
+
+console.log(phrase.startsWith("learning"));//false because of case sensitivity
+
+const paragraph='Big Bad Wolf';
+console.log(paragraph.match(/[A-Z]/g));
