@@ -68,9 +68,21 @@ console.log(phrase.split(" "));
 console.log(phrase.endsWith("worthwile"));//returns true
 console.log(phrase.includes("z"));//false
 console.log(phrase.indexOf("a"));
-console.log(alphabet.lastIndexOf("e"));
+console.log(phrase.lastIndexOf("e"));//returns the index of the last e
 
 console.log(phrase.startsWith("learning"));//false because of case sensitivity
 
 const paragraph='Big Bad Wolf';
 console.log(paragraph.match(/[A-Z]/g));
+
+let str1="Mr. Blue has a blue house";
+console.log(str1.search("blue"));//returns index 15 for blue
+console.log(str1.search(/blue/ig));//returns index 4 for Blue
+//only logs one which is the first that matches
+console.log(str1.search("ble"));//returns -1 because it doesnt find the match in the string
+
+let toUp="Uppercase";
+console.log(toUp.toLocaleUpperCase());
+
+let toLow="LOWERCASE";
+console.log(toLow.concat(" -> ",toLow.toLocaleLowerCase()));
