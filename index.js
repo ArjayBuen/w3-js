@@ -86,3 +86,6 @@ console.log(toUp.toLocaleUpperCase());
 
 let toLow="LOWERCASE";
 console.log(toLow.concat(" -> ",toLow.toLocaleLowerCase()));
+
+let toRepeat="Mushi";
+console.log(toRepeat.repeat(2));
