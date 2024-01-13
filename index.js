@@ -89,3 +89,10 @@ console.log(toLow.concat(" -> ",toLow.toLocaleLowerCase()));
 
 let toRepeat="Mushi";
 console.log(toRepeat.repeat(2));
+
+// Numbers
+let n='100'; //still a number but a typeof string
+console.log(isNaN(n));//returns false
+
+let fruits=100+"apple";
+console.log(isNaN(fruits));//returns true 
