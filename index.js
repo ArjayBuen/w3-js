@@ -96,3 +96,20 @@ console.log(isNaN(n));//returns false
 
 let fruits=100+"apple";
 console.log(isNaN(fruits));//returns true 
+console.log(typeof NaN);
+console.log(typeof Infinity);
+
+let infinite=2/0;
+console.log(infinite);
+
+let num=32;
+let num2=num.toString();
+console.log(typeof num2);
+console.log(num.toString(2));
+
+let exponential=9.656;
+console.log(exponential.toExponential(6));
+console.log(typeof(exponential.toExponential(6)));
+
+console.log(9.656.toFixed(2));//toFixed(2) is perfect for working with money
+console.log(typeof(9.656.toFixed(6)));
