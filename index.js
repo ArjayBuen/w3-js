@@ -113,3 +113,13 @@ console.log(typeof(exponential.toExponential(6)));
 
 console.log(9.656.toFixed(2));//toFixed(2) is perfect for working with money
 console.log(typeof(9.656.toFixed(6)));
+
+console.log(9.656.toPrecision(2)); 
+console.log(typeof(9.656.toPrecision(2)));
+
+Number(true); //returns 1
+Number(false); //returns 0
+Number("  10  "); //returns 10 without space
+Number("10.33"); //returns 10.33
+console.log(Number("10,333"));//returns NaN
+Number("10  33");//returns NaN
