@@ -140,3 +140,15 @@ parseFloat("years 10");//returns NaN
 
 console.log(Number.MAX_VALUE);
 console.log(Number.MIN_VALUE);
+
+console.log(Number.POSITIVE_INFINITY);
+console.log(Number.NEGATIVE_INFINITY);
+
+Number.isFinite(123);//returns true
+Number.isFinite(-123);//returns true
+Number.isFinite(5-2);//returns true
+Number.isFinite(0);//returns true
+Number.isFinite('123');//returns false
+Number.isFinite('Hello');//returns false
+Number.isFinite(Infinity);//returns false
+Number.isFinite(-Infinity);//returns false
