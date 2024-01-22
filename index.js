@@ -152,3 +152,12 @@ Number.isFinite('123');//returns false
 Number.isFinite('Hello');//returns false
 Number.isFinite(Infinity);//returns false
 Number.isFinite(-Infinity);//returns false
+
+Number.isInteger(123);//returns true
+Number.isInteger('123');//returns false because it is string type
+Number.isInteger(-123);//returns true
+Number.isInteger(5+2);//returns true
+Number.isInteger(0);//returns true
+Number.isInteger(0.5);//returns false because it is float
+Number.isInteger(false);//returns false because it is boolean
+Number.isInteger(Infinity);//returns false also in negative infinity
