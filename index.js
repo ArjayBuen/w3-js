@@ -161,3 +161,27 @@ Number.isInteger(0);//returns true
 Number.isInteger(0.5);//returns false because it is float
 Number.isInteger(false);//returns false because it is boolean
 Number.isInteger(Infinity);//returns false also in negative infinity
+
+console.log(Math.PI);//3.141592653589793
+console.log(Math.E);//2.718281828459045
+console.log(Math.SQRT2);//1.4142135623730951
+console.log(Math.SQRT1_2);//0.7071067811865476
+console.log(Math.LN2);//0.6931471805599453
+console.log(Math.LN10);//2.302585092994046
+console.log(Math.LOG2E);//1.4426950408889634
+console.log(Math.LOG10E);//0.4342944819032518
+
+console.log(Math.round(4.5));//5
+console.log(Math.round(4.4));//4
+console.log(Math.round(-4.5));//-4
+console.log(Math.round(-4.4));//-4
+
+console.log(Math.ceil(4.5));//5
+console.log(Math.ceil(4.4));//5
+console.log(Math.ceil(-4.5));//-4
+console.log(Math.ceil(-4.4));//-4
+
+console.log(Math.floor(4.9));//4
+console.log(Math.floor(4.4));//4
+console.log(Math.floor(-4.5));//-5
+console.log(Math.floor(-4.4));//-5
