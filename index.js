@@ -185,3 +185,12 @@ console.log(Math.floor(4.9));//4
 console.log(Math.floor(4.4));//4
 console.log(Math.floor(-4.5));//-5
 console.log(Math.floor(-4.4));//-5
+
+console.log(Math.trunc(4.9))//4
+console.log(Math.trunc(4.4))//4
+console.log(Math.trunc(-4.9))//-4
+console.log(Math.trunc(-4.4))//-4
+
+console.log(Math.sign(-4))//-1
+console.log(Math.sign(0))//0
+console.log(Math.sign(4))//1
