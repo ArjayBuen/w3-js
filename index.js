@@ -194,3 +194,10 @@ console.log(Math.trunc(-4.4))//-4
 console.log(Math.sign(-4))//-1
 console.log(Math.sign(0))//0
 console.log(Math.sign(4))//1
+
+console.log(Math.pow(8,2));//returns 64
+
+console.log(Math.sqrt(64));//returns 8
+
+console.log(Math.abs(-4.6));//returns 4.6
+
