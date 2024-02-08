@@ -201,3 +201,6 @@ console.log(Math.sqrt(64));//returns 8
 
 console.log(Math.abs(-4.6));//returns 4.6
 
+console.log(Math.sin(90 * Math.PI/180));//returns 1 (sine of 90 degrees)
+console.log(Math.cos(0 * Math.PI/180));//returns 1 (cos of 0 degrees)
+console.log(Math.tan(45 * Math.PI/180));
