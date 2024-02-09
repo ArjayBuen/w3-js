@@ -204,3 +204,7 @@ console.log(Math.abs(-4.6));//returns 4.6
 console.log(Math.sin(90 * Math.PI/180));//returns 1 (sine of 90 degrees)
 console.log(Math.cos(0 * Math.PI/180));//returns 1 (cos of 0 degrees)
 console.log(Math.tan(45 * Math.PI/180));
+
+console.log(Math.min(0, 150, 30, 20, -8, -200))// returns -200
+const nums=[0, 150, 30, 20, -8, -200];
+console.log(Math.max(...nums));//returns 150
