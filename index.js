@@ -208,3 +208,9 @@ console.log(Math.tan(45 * Math.PI/180));
 console.log(Math.min(0, 150, 30, 20, -8, -200))// returns -200
 const nums=[0, 150, 30, 20, -8, -200];
 console.log(Math.max(...nums));//returns 150
+
+console.log(Math.log(1))//returns 0
+console.log(Math.log(10))//returns 2.302585092994046
+console.log(Math.log2(4))// returns 2 means 2 times needed to multiply 2 to get 4
+console.log(Math.log10(1000))//returns 3 means 3 times needed to multiply 10 to get 1000
+
