@@ -214,3 +214,6 @@ console.log(Math.log(10))//returns 2.302585092994046
 console.log(Math.log2(4))// returns 2 means 2 times needed to multiply 2 to get 4
 console.log(Math.log10(1000))//returns 3 means 3 times needed to multiply 10 to get 1000
 
+console.log(Math.random())//returns random number between 0 and 1(exclusive) or 0-0.9
+console.log(Math.floor(Math.random()*10))//returns random number 0-9
+console.log(Math.floor(Math.random()*10)+1)//returns random number 1-10
