@@ -19,6 +19,9 @@ if('make' in car===false){
 }
 
 /******************************* String Methods *********************************/ 
+console.log("horizontal\ttab")
+console.log("vertical\vtab")
+console.log("new\nline")
 let str="Apple, Banana, Kiwi";
 console.log(str.length);
 console.log(str.slice(-25).length);//still return as the length of str even it is over
